@@ -1,0 +1,57 @@
+.navbar {
+  position: sticky !important;
+  background: #1c1e21 !important;
+  top: 0;
+  z-index: 999;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background: none !important;
+}
+
+.navbar-nav .dropdown-menu {
+  background-color: #1c1e21;
+}
+
+.dropdown-item:hover {
+  background: none;
+}
+
+.navbar a {
+  color: white !important;
+  margin: 0 5px;
+}
+.navbar a:hover {
+  color: #ff006f !important;
+}
+
+.navbar .loginBtn {
+  background-color: #940e48;
+  border-radius: 4px;
+}
+
+.loginBtn:hover {
+  background-color: #ba0050;
+}
+
+.loginBtn:hover a {
+  color: white !important;
+}
+
+.navShadow {
+  box-shadow: 0 1px 1px #940e48;
+}
+.slide-in-top {
+  animation: slide-in-top 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

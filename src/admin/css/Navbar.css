@@ -1,0 +1,18 @@
+.adminNavbar {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adminNavbar .adminNavbar-link {
+  color: white;
+  background-color: #a61151;
+  padding: 7px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.adminLayout .adminNavbar-link:hover {
+  background-color: #bc135c;
+}

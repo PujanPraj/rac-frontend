@@ -1,0 +1,8 @@
+.admin-link a {
+  text-decoration: none;
+  color: black;
+}
+
+.accordion-button {
+  font-weight: 600;
+}

@@ -1,0 +1,43 @@
+.login-form {
+  width: 500px;
+  margin: 2% auto 5%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: black;
+}
+
+.login-form .error {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.login-form .form-btn {
+  background-color: #a61151;
+  border: none;
+}
+
+.login-form .form-btn:hover {
+  background-color: #b41358;
+}
+
+.login-form p {
+  font-size: 14px;
+  color: black;
+  float: right;
+}
+
+.login-form p a {
+  color: #a61151;
+}

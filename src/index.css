@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Teko&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+body {
+  background: #1c1e21 !important;
+}
+
+.seeMore {
+  background: #a61151;
+  color: white;
+  text-decoration: none;
+  padding: 15px 30px;
+  transition: 0.3s;
+}
+
+.seeMore:hover {
+  background: #940e48;
+}
+
+.tekoHeading {
+  font-family: "Teko", sans-serif;
+  color: white;
+  font-size: 3.5em;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.teko {
+  font-family: "Teko", sans-serif;
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.logo {
+  width: 250px;
+}
+
+.heading {
+  text-decoration: underline;
+  color: #a61151;
+}
+
+.pageHeader {
+  background-image: url("../public/images/headerbg.png");
+  background-size: cover;
+  width: 100%;
+}
+
+.contactSection label {
+  color: white !important;
+}
+
+form label {
+  color: #1c1e21;
+}
+
+.fa-bars-staggered {
+  color: white;
+  border: none;
+  font-size: 25px;
+}
+
+.contactSection i {
+  color: #a61151;
+  margin-right: 9px;
+}

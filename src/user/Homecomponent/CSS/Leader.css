@@ -1,0 +1,15 @@
+.leaderSection .card {
+  border: none;
+  border-radius: 0 !important;
+}
+
+.leaderSection .leaderCarousel {
+  display: flex;
+  justify-content: center;
+}
+
+.leaderCarousel p,
+h5,
+h6 {
+  color: #1c1e21 !important;
+}

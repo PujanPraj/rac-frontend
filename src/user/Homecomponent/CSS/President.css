@@ -1,0 +1,46 @@
+.presidentSection .images img {
+  width: 390px;
+  height: 450px;
+  object-fit: cover;
+  opacity: 0.8;
+  display: block;
+}
+
+.presidentSection .images .imageItems {
+  position: relative;
+}
+
+.presidentSection .images .imageItems .text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  background-color: rgba(166, 17, 82, 0.137);
+  overflow: hidden;
+  width: 100%;
+  height: 15%;
+  padding: 10px 20px;
+  transition: 0.8s;
+}
+
+.presidentSection .images .imageItems:hover .text {
+  height: 100%;
+}
+
+.presidentSection h5,
+.presidentSection h6 {
+  color: white !important;
+}
+
+@media only screen and (max-width: 799px) {
+  .presidentSection h2 {
+    text-align: center;
+  }
+  .presidentSection .images img {
+    width: 100%;
+  }
+  .presidentSection .images {
+    justify-content: center !important;
+    flex-direction: column;
+  }
+}

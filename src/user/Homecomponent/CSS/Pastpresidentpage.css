@@ -1,0 +1,37 @@
+.Pastpresidentpage .card {
+  border: none;
+  border-radius: 0 !important;
+  transition: 0.4s;
+  background: #1c1e21;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.Pastpresidentpage .card img {
+  opacity: 0.6;
+  width: 100%;
+  height: 356px;
+  object-fit: cover;
+}
+
+.Pastpresidentpage .card .card-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  background-color: rgba(166, 17, 82, 0.281);
+  overflow: hidden;
+  width: 100%;
+  height: 12%;
+  padding: 10px 20px;
+  transition: 0.5s;
+}
+
+.Pastpresidentpage .card:hover .card-text {
+  height: 100%;
+}
+
+.Pastpresidentpage h5,
+h6 {
+  color: white !important;
+}
